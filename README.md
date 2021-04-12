@@ -65,6 +65,4 @@ PASSWORD -> 1234
 
 ### RUN DOCKER
 
-docker build -t "app" ./chat-server
-docker build -t "reactapp" ./chat-client
-docker-compose up
+docker build -t "app" ./chat-server && docker build -t "reactapp" ./chat-client && docker-compose up
