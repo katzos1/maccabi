@@ -31,7 +31,6 @@ Handles all information and passing through socket.IO
 
 Mongoose database model
 
-
 ### validateModel.js
 
 validate every insert/get query to db
@@ -65,6 +64,7 @@ USER -> demo
 PASSWORD -> 1234
 
 ### RUN DOCKER
+
 docker build -t "app" ./chat-server
 docker build -t "reactapp" ./chat-client
 docker-compose up
