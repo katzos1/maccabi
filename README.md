@@ -1,11 +1,11 @@
 # React Chat for Maccabi, By Omri.K
 
-This project is designed to chat between two end users using socket.IO
+This project is designed to chat between two users using socket.IO
 
 ## Technologies
 
 ### Server side
-developed in Node.JS, MongoDB Socket.IO
+developed at Node.JS, MongoDB Socket.IO
 
 
 ### Client side
@@ -21,41 +21,41 @@ Runs the Node.JS app in the development mode.\
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
  
-### Server side, files
+## Server side, files
 
-## socketHandler.js
+### socketHandler.js
 
-Handles all information passing through socket.IO
+Handles all information and passing through socket.IO
 
-## dbModel.js
+### dbModel.js
 
-Moongose database model
+Mongoose database model
 
 
 ### validateModel.js
 
-validate every insert/get to db
+validate every insert/get query to db
 
-### Client side, files
+## Client side, files
 
-## preProcessHelper.js
-Runs each time before the page loads to check if the user is logged in through LocalStorage
+### preProcessHelper.js
+Run before the page loads in order to check if the user is loggedIn through localStorage
 
-## form-components folder
+### form-components folder
 design for reuse code
 
 
-## api folder
+### api folder
 Handles all calls to the API
 
-## index.js
-The master code that produces the entire REACT
+### index.js
+The master code that produces the entire REACT App
 
 ### For Development purpose -> Reduxt DEVTOOLS still alive
 ** const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 ### Redux 'thunk'
-Middleware for redux to preform every ASYNC functions
+Middleware for redux to preform every async functions
 
 ### You can use the following users
 USER -> admin
