@@ -1,0 +1,15 @@
+header{
+    padding-bottom: 20px;;
+}
+
+header .container
+{
+
+    margin-top: 5px;
+    border-radius: 15px;
+    background-color: #0060b6;
+}
+
+header .container a {
+    color: white!important;
+}
